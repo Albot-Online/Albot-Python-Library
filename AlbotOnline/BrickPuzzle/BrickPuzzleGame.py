@@ -1,6 +1,6 @@
-import AlbotConnection as AO
-import BrickPuzzle.MoveSimulator as Simulator
-import BrickPuzzle.BrickPuzzleBoard as Board
+from AlbotOnline import AlbotConnection as AO
+import AlbotOnline.BrickPuzzle.MoveSimulator as Simulator
+import AlbotOnline.BrickPuzzle.BrickPuzzleBoard as Board
 
 class BrickPuzzleGame:
 

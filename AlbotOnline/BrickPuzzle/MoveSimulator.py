@@ -1,4 +1,4 @@
-import BrickPuzzle.BrickPuzzleBoard as Board
+import AlbotOnline.BrickPuzzle.BrickPuzzleBoard as Board
 
 def simulateMove(board, move):
     grid = board.getGridClone()

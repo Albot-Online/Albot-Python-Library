@@ -1,5 +1,4 @@
-import BrickPuzzle.BrickPuzzleGame as AO
-import BrickPuzzle.BrickPuzzleBoard as B
+import AlbotOnline.BrickPuzzle.BrickPuzzleGame as AO
 
 game = AO.BrickPuzzleGame()
 b = game.getNextBoard()

@@ -18,12 +18,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="11" />
+          <entry key="py" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="11" />
+          <entry key="Python" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -39,14 +39,14 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6915931">
+    <splitter split-orientation="horizontal" split-proportion="0.38930723">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/TestFile.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+                <state relative-caret-position="462">
+                  <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
                   <folding>
                     <element signature="e#0#28#0" expanded="true" />
                   </folding>
@@ -55,7 +55,7 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/AlbotConnection.py">
+            <entry file="file://$PROJECT_DIR$/AlbotOnline/AlbotConnection.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="378">
                   <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
@@ -68,30 +68,30 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/BrickPuzzle/BrickPuzzleGame.py">
+            <entry file="file://$PROJECT_DIR$/AlbotOnline/BrickPuzzle/BrickPuzzleGame.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="666">
-                  <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+                <state relative-caret-position="214">
+                  <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
                   <folding>
-                    <element signature="e#0#28#0" expanded="true" />
-                    <marker date="1533674839316" expanded="true" signature="143:144" ph="..." />
-                    <marker date="1533674839316" expanded="true" signature="304:372" ph="..." />
-                    <marker date="1533674839316" expanded="true" signature="406:850" ph="..." />
-                    <marker date="1533674839316" expanded="true" signature="873:980" ph="..." />
-                    <marker date="1533674839316" expanded="true" signature="1005:1214" ph="..." />
+                    <element signature="e#0#45#0" expanded="true" />
+                    <marker date="1533675444984" expanded="true" signature="184:185" ph="..." />
+                    <marker date="1533675444984" expanded="true" signature="345:413" ph="..." />
+                    <marker date="1533675444984" expanded="true" signature="447:891" ph="..." />
+                    <marker date="1533675444984" expanded="true" signature="914:1021" ph="..." />
+                    <marker date="1533675444984" expanded="true" signature="1046:1255" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/BrickPuzzle/MoveSimulator.py">
+            <entry file="file://$PROJECT_DIR$/AlbotOnline/BrickPuzzle/MoveSimulator.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
+                <state relative-caret-position="462">
                   <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
                   <folding>
-                    <marker date="1533674406942" expanded="true" signature="551:556" ph="..." />
-                    <marker date="1533674406942" expanded="true" signature="772:777" ph="..." />
+                    <marker date="1533675444947" expanded="true" signature="563:568" ph="..." />
+                    <marker date="1533675444947" expanded="true" signature="784:789" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -101,11 +101,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/BrickPuzzle/BrickPuzzleBoard.py">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/AlbotOnline/BrickPuzzle/BrickPuzzleBoard.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="174">
-                  <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
+                <state relative-caret-position="120">
+                  <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
                   <folding>
                     <element signature="e#0#27#0" expanded="true" />
                     <marker date="1533674379238" expanded="true" signature="64:114" ph="..." />
@@ -116,6 +116,16 @@
                   </folding>
                 </state>
               </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/AlbotOnline/__init__.py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/AlbotOnline/Test.py">
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
@@ -151,14 +161,15 @@
         <option value="$PROJECT_DIR$/TestFile.py" />
         <option value="$PROJECT_DIR$/AlbotConnection.py" />
         <option value="$PROJECT_DIR$/BrickPuzzle/BrickPuzzleGame.py" />
+        <option value="$PROJECT_DIR$/AlbotOnline/Test.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1913" />
-    <option name="y" value="-602" />
-    <option name="width" value="2376" />
-    <option name="height" value="1407" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="5" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="968" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -173,11 +184,6 @@
               <item name="Albot-Python-Library" type="b2602c69:ProjectViewProjectNode" />
               <item name="Albot-Python-Library" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Albot-Python-Library" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Albot-Python-Library" type="462c0819:PsiDirectoryNode" />
-              <item name="BrickPuzzle" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -186,6 +192,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Fredde\Documents\Github\Albot-Python-Library\AlbotOnline" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -267,18 +278,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="-602" width="2376" height="1407" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07912746" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20356907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.32763046" side_tool="true" visible="true" weight="0.20581304" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.32782552" side_tool="true" weight="0.21134752" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.67236954" visible="true" weight="0.20581304" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6721745" visible="true" weight="0.21134752" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -306,10 +317,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BrickPuzzle/BrickPuzzleBoard.py">
+    <entry file="file://$PROJECT_DIR$/AlbotOnline/BrickPuzzle/MoveSimulator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
+        <state relative-caret-position="462">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <marker date="1533675444947" expanded="true" signature="563:568" ph="..." />
+            <marker date="1533675444947" expanded="true" signature="784:789" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbotOnline/AlbotConnection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1533674699582" expanded="true" signature="49:55" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbotOnline/BrickPuzzle/BrickPuzzleGame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+            <marker date="1533675444984" expanded="true" signature="184:185" ph="..." />
+            <marker date="1533675444984" expanded="true" signature="345:413" ph="..." />
+            <marker date="1533675444984" expanded="true" signature="447:891" ph="..." />
+            <marker date="1533675444984" expanded="true" signature="914:1021" ph="..." />
+            <marker date="1533675444984" expanded="true" signature="1046:1255" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbotOnline/BrickPuzzle/BrickPuzzleBoard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
             <marker date="1533674379238" expanded="true" signature="64:114" ph="..." />
@@ -321,52 +379,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BrickPuzzle/MoveSimulator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <marker date="1533674406942" expanded="true" signature="551:556" ph="..." />
-            <marker date="1533674406942" expanded="true" signature="772:777" ph="..." />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/AlbotOnline/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlbotConnection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1533674699582" expanded="true" signature="49:55" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BrickPuzzle/BrickPuzzleGame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1533674839316" expanded="true" signature="143:144" ph="..." />
-            <marker date="1533674839316" expanded="true" signature="304:372" ph="..." />
-            <marker date="1533674839316" expanded="true" signature="406:850" ph="..." />
-            <marker date="1533674839316" expanded="true" signature="873:980" ph="..." />
-            <marker date="1533674839316" expanded="true" signature="1005:1214" ph="..." />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/AlbotOnline/Test.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
