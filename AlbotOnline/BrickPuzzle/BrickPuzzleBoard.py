@@ -1,4 +1,3 @@
-import JsonProtocol as Prot
 import math
 
 class BrickPuzzleBoard:
