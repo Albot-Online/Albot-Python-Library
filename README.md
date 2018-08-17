@@ -9,8 +9,8 @@ This library is available at [PyPi](https://Pypi.org), so to download and instal
 pip install Albot.Online
 ```
 ## Example
-Following is a short example of the Python Library being put to use on the Snake game. 
-For exact information of how to use the library see the documentation Wiki.
+Following is a short example of the Python Library being put to use on the [Snake](https://www.albot.online/snake/) game. 
+For exact information of how to use the library see the [documentation Wiki](https://github.com/Albot-Online/Albot-Python-Library/wiki/Snake).
 
 ```python
 from AlbotOnline.Snake.SnakeGame import SnakeGame
