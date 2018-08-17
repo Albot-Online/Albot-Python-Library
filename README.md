@@ -1,7 +1,7 @@
 # Albot.Online Python Library
 
 A simple library for communicating with the [Albot.Online](https://Albot.Online) client. 
-This is great for getting you up and running fast, allowing you to focus more on your AI logic.
+This is great for getting you up and running fast, allowing you to focus more on the AI logic.
 <br><br>
 ## Getting Started
 This library is available at [PyPi](https://Pypi.org), so to download and install simply use the command:<br>
