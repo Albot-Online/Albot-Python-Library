@@ -38,4 +38,4 @@ This bot will simply connect to the client, look at what moves it currently has 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Albot-Online/Albot-Python-Library/blob/master/LICENSE) file for details
