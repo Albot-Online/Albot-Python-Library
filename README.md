@@ -10,7 +10,7 @@ pip install Albot.Online
 ```
 ## Example
 Following is a short example of the Python Library being put to use on the [Snake](https://www.albot.online/snake/) game. 
-For exact information of how to use the library see the [documentation Wiki](https://github.com/Albot-Online/Albot-Python-Library/wiki/Snake).
+For exact information of how to use the library see the [documentation Wiki](https://github.com/Albot-Online/Albot-Python-Library/wiki).
 
 ```python
 from AlbotOnline.Snake.SnakeGame import SnakeGame
