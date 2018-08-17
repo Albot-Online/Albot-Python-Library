@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='AlbotOnline',
-    version='0.1b',
+    version='0.2b',
     packages=['AlbotOnline', 'AlbotOnline.BrickPuzzle'],
     url='https://github.com/Albot-Online/Albot-Python-Library',
     license='MIT',

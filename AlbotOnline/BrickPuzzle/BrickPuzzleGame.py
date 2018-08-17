@@ -5,7 +5,7 @@ import AlbotOnline.BrickPuzzle.BrickPuzzleBoard as Board
 class BrickPuzzleGame:
 
     def __init__(self, IP = '127.0.0.1', Port = 4000):
-        self.connection = AO.AlbotConnection(bufferSize=1024)
+        self.connection = AO.AlbotConnection(bufferSize=1024, IP=IP, Port=Port)
 
 
     def simulateMove(self, board, move):
