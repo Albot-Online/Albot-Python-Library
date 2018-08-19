@@ -12,75 +12,98 @@
     <session id="10270796">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="22" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="5" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.7" value="7" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="31" />
-          <entry key="txt" value="1" />
+          <entry key="PKG-INFO" value="1" />
+          <entry key="py" value="42" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="31" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="42" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="12574" />
-          <entry key="txt" value="40" />
+          <entry key="py" value="14954" />
+          <entry key="txt" value="139" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="12574" />
+          <entry key="PLAIN_TEXT" value="99" />
+          <entry key="Python" value="14954" />
           <entry key="Scratch" value="40" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.39491004">
+    <splitter split-orientation="horizontal" split-proportion="0.8495298">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/AlbotOnline/TestFile.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="818">
-                  <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+                <state relative-caret-position="68">
+                  <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
                   <folding>
-                    <element signature="e#0#40#0" expanded="true" />
-                    <marker date="1534522342356" expanded="true" signature="275:504" ph="..." />
-                    <marker date="1534522342356" expanded="true" signature="502:503" ph="..." />
+                    <element signature="e#0#45#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/AlbotOnline/Connect4/Connect4Game.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+                  <folding>
+                    <element signature="e#0#45#0" expanded="true" />
+                    <marker date="1534622389108" expanded="true" signature="158:159" ph="..." />
+                    <marker date="1534622389108" expanded="true" signature="158:164" ph="..." />
+                    <marker date="1534622389108" expanded="true" signature="369:421" ph="..." />
+                    <marker date="1534622389108" expanded="true" signature="500:544" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/setup.py">
+            <entry file="file://$PROJECT_DIR$/AlbotOnline/Connect4/Connect4Board.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+                <state relative-caret-position="85">
+                  <caret line="6" column="102" selection-start-line="6" selection-start-column="102" selection-end-line="6" selection-end-column="102" />
+                  <folding>
+                    <element signature="e#0#36#0" expanded="true" />
+                    <marker date="1534622057027" expanded="true" signature="111:117" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/AlbotOnline/JsonProtocol.py">
+            <entry file="file://$PROJECT_DIR$/AlbotOnline/Connect4/Connect4Constants.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="782">
-                  <caret line="46" column="47" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="47" />
+                <state relative-caret-position="17">
+                  <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -89,11 +112,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/AlbotOnline/Snake/SnakeGame.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+                <state relative-caret-position="1084">
+                  <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="94" selection-end-column="52" />
                   <folding>
                     <element signature="e#0#45#0" expanded="true" />
                     <marker date="1534521354409" expanded="true" signature="454:458" ph="..." />
@@ -104,33 +127,15 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python36_64/Lib/json/__init__.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4981">
-                  <caret line="295" selection-start-line="295" selection-end-line="295" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python36_64/Lib/json/decoder.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="6018">
-                  <caret line="356" selection-start-line="356" selection-end-line="356" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/AlbotOnline/Snake/SnakeBoard.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+                <state relative-caret-position="119">
+                  <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="88" />
                   <folding>
-                    <element signature="e#0#44#0" expanded="true" />
-                    <marker date="1534519967818" expanded="true" signature="191:197" ph="..." />
-                    <marker date="1534519967818" expanded="true" signature="536:542" ph="..." />
-                    <marker date="1534519967818" expanded="true" signature="1745:1751" ph="..." />
+                    <element signature="e#0#36#0" expanded="true" />
+                    <marker date="1534615594521" expanded="true" signature="183:189" ph="..." />
+                    <marker date="1534615594521" expanded="true" signature="529:535" ph="..." />
+                    <marker date="1534615594521" expanded="true" signature="1739:1745" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -139,38 +144,47 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/AlbotOnline/Snake/SnakeConstants.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="21" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="21" />
+                <state relative-caret-position="119">
+                  <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/AlbotOnline/Prefabs/GridBoard.py">
+            <entry file="file://$PROJECT_DIR$/AlbotOnline/GridBoard.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="646">
-                  <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+                <state relative-caret-position="408">
+                  <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
                   <folding>
-                    <marker date="1534508102428" expanded="true" signature="29:30" ph="..." />
-                    <marker date="1534508102428" expanded="true" signature="29:35" ph="..." />
-                    <marker date="1534508102428" expanded="true" signature="901:1021" ph="..." />
+                    <marker date="1534620084843" expanded="true" signature="29:30" ph="..." />
+                    <marker date="1534620084843" expanded="true" signature="29:35" ph="..." />
+                    <marker date="1534620084843" expanded="true" signature="949:1069" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/AlbotOnline/AlbotConnection.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="782">
-                  <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+                <state relative-caret-position="493">
+                  <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
                   <folding>
                     <element signature="e#0#13#0" expanded="true" />
-                    <marker date="1534521432970" expanded="true" signature="93:99" ph="..." />
-                    <marker date="1534521432970" expanded="true" signature="511:516" ph="..." />
-                    <marker date="1534521432970" expanded="true" signature="825:829" ph="..." />
-                    <marker date="1534521432970" expanded="true" signature="850:854" ph="..." />
+                    <marker date="1534621122032" expanded="true" signature="93:99" ph="..." />
+                    <marker date="1534621122032" expanded="true" signature="511:516" ph="..." />
+                    <marker date="1534621122032" expanded="true" signature="825:829" ph="..." />
+                    <marker date="1534621122032" expanded="true" signature="850:854" ph="..." />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/AlbotOnline/JsonProtocol.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="629">
+                  <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
                 </state>
               </provider>
             </entry>
@@ -206,27 +220,33 @@
         <option value="$PROJECT_DIR$/AlbotOnline/Connect4/SnakeGame.py" />
         <option value="$PROJECT_DIR$/AlbotOnline/Snake/SnakeConstants.py" />
         <option value="$PROJECT_DIR$/AlbotOnline/Prefabs/GridBoard.py" />
-        <option value="$PROJECT_DIR$/AlbotOnline/JsonProtocol.py" />
-        <option value="$PROJECT_DIR$/AlbotOnline/Snake/SnakeBoard.py" />
         <option value="$PROJECT_DIR$/AlbotOnline/Snake/SnakeGame.py" />
-        <option value="$PROJECT_DIR$/AlbotOnline/AlbotConnection.py" />
+        <option value="$PROJECT_DIR$/AlbotOnline.egg-info/SOURCES.txt" />
+        <option value="$PROJECT_DIR$/AlbotOnline/Prefabs/__init__.py" />
         <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/AlbotOnline/Connect4/__init__.py" />
+        <option value="$PROJECT_DIR$/AlbotOnline/Connect4/Connect4Constants.py" />
+        <option value="$PROJECT_DIR$/AlbotOnline/Snake/SnakeBoard.py" />
+        <option value="$PROJECT_DIR$/AlbotOnline/GridBoard.py" />
+        <option value="$PROJECT_DIR$/AlbotOnline/JsonProtocol.py" />
+        <option value="$PROJECT_DIR$/AlbotOnline/AlbotConnection.py" />
+        <option value="$PROJECT_DIR$/AlbotOnline/Connect4/Connect4Board.py" />
         <option value="$PROJECT_DIR$/AlbotOnline/TestFile.py" />
+        <option value="$PROJECT_DIR$/AlbotOnline/Connect4/Connect4Game.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3096" />
-    <option name="y" value="-742" />
-    <option name="width" value="1941" />
-    <option name="height" value="1050" />
+    <option name="x" value="3085" />
+    <option name="y" value="-441" />
+    <option name="width" value="1935" />
+    <option name="height" value="729" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,18 +263,12 @@
               <item name="Albot-Python-Library" type="b2602c69:ProjectViewProjectNode" />
               <item name="Albot-Python-Library" type="462c0819:PsiDirectoryNode" />
               <item name="AlbotOnline" type="462c0819:PsiDirectoryNode" />
-              <item name="Prefabs" type="462c0819:PsiDirectoryNode" />
+              <item name="Connect4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Albot-Python-Library" type="b2602c69:ProjectViewProjectNode" />
               <item name="Albot-Python-Library" type="462c0819:PsiDirectoryNode" />
-              <item name="AlbotOnline" type="462c0819:PsiDirectoryNode" />
-              <item name="Snake" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Albot-Python-Library" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Albot-Python-Library" type="462c0819:PsiDirectoryNode" />
-              <item name="AlbotOnline.egg-info" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Albot-Python-Library" type="b2602c69:ProjectViewProjectNode" />
@@ -269,16 +283,17 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Fredde\Documents\Github\Albot-Python-Library\AlbotOnline\Snake" />
       <recent name="C:\Users\Fredde\Documents\Github\Albot-Python-Library\AlbotOnline" />
+      <recent name="C:\Users\Fredde\Documents\Github\Albot-Python-Library\AlbotOnline\Snake" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -364,18 +379,18 @@
     <frame x="1913" y="-1223" width="2575" height="1415" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10204886" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.092986606" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6721745" visible="true" weight="0.25819033" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6721745" visible="true" weight="0.2751773" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.18096724" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.24336973" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.32782552" side_tool="true" weight="0.21134752" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -439,30 +454,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AlbotOnline/Snake/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/AlbotOnline/BrickPuzzle/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/AlbotOnline.egg-info/dependency_links.txt" />
+    <entry file="file://$PROJECT_DIR$/AlbotOnline.egg-info/PKG-INFO" />
+    <entry file="file://$PROJECT_DIR$/AlbotOnline.egg-info/SOURCES.txt" />
+    <entry file="file://$PROJECT_DIR$/AlbotOnline/Prefabs/__init__.py" />
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AlbotOnline/JsonProtocol.py">
+    <entry file="file://$PROJECT_DIR$/AlbotOnline/Snake/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbotOnline/Connect4/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python36_64/Lib/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="47" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="47" />
+        <state relative-caret-position="990">
+          <caret line="353" selection-start-line="353" selection-end-line="353" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python36_64/Lib/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="338" selection-start-line="338" selection-end-line="338" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbotOnline/TestFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbotOnline/Connect4/Connect4Board.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="102" selection-start-line="6" selection-start-column="102" selection-end-line="6" selection-end-column="102" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+            <marker date="1534622057027" expanded="true" signature="111:117" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbotOnline/Connect4/Connect4Constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbotOnline/Connect4/Connect4Game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+            <marker date="1534622389108" expanded="true" signature="158:159" ph="..." />
+            <marker date="1534622389108" expanded="true" signature="158:164" ph="..." />
+            <marker date="1534622389108" expanded="true" signature="369:421" ph="..." />
+            <marker date="1534622389108" expanded="true" signature="500:544" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AlbotOnline/Snake/SnakeGame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="1084">
+          <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="94" selection-end-column="52" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
             <marker date="1534521354409" expanded="true" signature="454:458" ph="..." />
@@ -471,75 +542,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python36_64/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4981">
-          <caret line="295" selection-start-line="295" selection-end-line="295" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python36_64/Lib/json/decoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6018">
-          <caret line="356" selection-start-line="356" selection-end-line="356" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AlbotOnline/Snake/SnakeBoard.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        <state relative-caret-position="119">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="88" />
           <folding>
-            <element signature="e#0#44#0" expanded="true" />
-            <marker date="1534519967818" expanded="true" signature="191:197" ph="..." />
-            <marker date="1534519967818" expanded="true" signature="536:542" ph="..." />
-            <marker date="1534519967818" expanded="true" signature="1745:1751" ph="..." />
+            <element signature="e#0#36#0" expanded="true" />
+            <marker date="1534615594521" expanded="true" signature="183:189" ph="..." />
+            <marker date="1534615594521" expanded="true" signature="529:535" ph="..." />
+            <marker date="1534615594521" expanded="true" signature="1739:1745" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AlbotOnline/Snake/SnakeConstants.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="119">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AlbotOnline/Prefabs/GridBoard.py">
+    <entry file="file://$PROJECT_DIR$/AlbotOnline/GridBoard.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        <state relative-caret-position="408">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
           <folding>
-            <marker date="1534508102428" expanded="true" signature="29:30" ph="..." />
-            <marker date="1534508102428" expanded="true" signature="29:35" ph="..." />
-            <marker date="1534508102428" expanded="true" signature="901:1021" ph="..." />
+            <marker date="1534620084843" expanded="true" signature="29:30" ph="..." />
+            <marker date="1534620084843" expanded="true" signature="29:35" ph="..." />
+            <marker date="1534620084843" expanded="true" signature="949:1069" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AlbotOnline/AlbotConnection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="493">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1534521432970" expanded="true" signature="93:99" ph="..." />
-            <marker date="1534521432970" expanded="true" signature="511:516" ph="..." />
-            <marker date="1534521432970" expanded="true" signature="825:829" ph="..." />
-            <marker date="1534521432970" expanded="true" signature="850:854" ph="..." />
+            <marker date="1534621122032" expanded="true" signature="93:99" ph="..." />
+            <marker date="1534621122032" expanded="true" signature="511:516" ph="..." />
+            <marker date="1534621122032" expanded="true" signature="825:829" ph="..." />
+            <marker date="1534621122032" expanded="true" signature="850:854" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AlbotOnline/TestFile.py">
+    <entry file="file://$PROJECT_DIR$/AlbotOnline/JsonProtocol.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="818">
-          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <marker date="1534522342356" expanded="true" signature="275:504" ph="..." />
-            <marker date="1534522342356" expanded="true" signature="502:503" ph="..." />
-          </folding>
+        <state relative-caret-position="629">
+          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
         </state>
       </provider>
     </entry>

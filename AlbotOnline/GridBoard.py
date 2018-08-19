@@ -8,7 +8,7 @@ class GridBoard:
         if(parseString == ""):
             self.createEmptyGrid(numbers)
         else:
-            self.parseBoard(parseString)
+            GridBoard.parseBoard(self, parseString)
 
     def createEmptyGrid(self, numbers):
         self.grid = []
@@ -23,7 +23,8 @@ class GridBoard:
         for y in range(self.height):
             row = []
             for x in range(self.width):
-                row.append(words[y*self.height + self.width])
+                print(words[y*self.width + x])
+                row.append(words[y*self.width + x])
             self.grid.append(row)
 
 

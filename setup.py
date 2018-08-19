@@ -1,12 +1,12 @@
 from setuptools import setup
 
 setup(
-    name='AlbotOnline',
-    version='0.2b',
-    packages=['AlbotOnline', 'AlbotOnline.BrickPuzzle'],
-    url='https://github.com/Albot-Online/Albot-Python-Library',
+    name='Albot.Online',
+    version='0.23b0',
+    packages=['AlbotOnline', 'AlbotOnline.Snake', 'AlbotOnline.BrickPuzzle'],
+    url='https://www.albot.online/',
     license='MIT',
     author='Albot.Online',
     author_email='Albot.Online.info@gmail.com',
-    description='Library for communicating with the Albot.Online client'
+    description='A simple library for connecting you and supplying game functions for  the Albot.Onlie Client.'
 )

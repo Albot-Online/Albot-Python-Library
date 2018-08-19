@@ -36,7 +36,7 @@ ACTIONS.makeMove = "makeMove"
 ACTIONS.simMove = "simulateMove"
 ACTIONS.evalBoard = "evaluateBoard"
 ACTIONS.getPossMoves = "getPossibleMoves"
-ACTIONS.restart = "RestartGame"
+ACTIONS.restart = "restartGame"
 
 #Actions Snake
 ACTIONS.Snake = lambda: None

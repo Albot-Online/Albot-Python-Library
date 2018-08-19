@@ -1,4 +1,4 @@
-import AlbotOnline.Prefabs.GridBoard as Grid
+import AlbotOnline.GridBoard as Grid
 from AlbotOnline.Snake.SnakeConstants import Constants as C
 import AlbotOnline.JsonProtocol as Prot
 import copy
@@ -13,9 +13,9 @@ class SnakeBoard(Grid.GridBoard):
             self._copyOldBoard(oldBoard)
 
         if(jUpdate != None):
-            self.parseJsonMsg(jUpdate)
+            self._parseJsonMsg(jUpdate)
 
-    def parseJsonMsg(self, jUpdate):
+    def _parseJsonMsg(self, jUpdate):
         self.blocked.extend(jUpdate[Prot.FIELDS.Snake.blocked])
         self._parseBlocked(jUpdate[Prot.FIELDS.Snake.blocked])
 
@@ -50,5 +50,3 @@ class SnakeBoard(Grid.GridBoard):
 
     def getAPIPlayers(self):
         return {Prot.FIELDS.player: self.rawPlayer, Prot.FIELDS.enemy: self.rawEnemy}
-
-

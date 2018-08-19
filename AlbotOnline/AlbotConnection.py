@@ -29,6 +29,7 @@ class AlbotConnection:
     def getNextString(self, checkForGameOver = False):
         data = self.connection.recv(self.bufferSize)
         text = data.decode("utf-8")
+       # print(text)
         self.awaitingData = False
 
         if(checkForGameOver and Protocol.FIELDS.gameOver in text):
