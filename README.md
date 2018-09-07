@@ -17,8 +17,8 @@ from AlbotOnline.Snake.SnakeGame import SnakeGame
 import random
 
 game = SnakeGame() #Connects you to the Client
-while(game.gameOver == False):
-    board = game.getNextBoard()
+while(game.waitForNextGameState() == "ongoing"):
+    board = game.currentBoard
     board.printBoard("Current Board")
 
     playerMoves, enemyMoves = game.getPossibleMoves(board)
