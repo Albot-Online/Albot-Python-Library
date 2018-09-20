@@ -23,7 +23,6 @@ class GridBoard:
         for y in range(self.height):
             row = []
             for x in range(self.width):
-                print(words[y*self.width + x])
                 row.append(words[y*self.width + x])
             self.grid.append(row)
 

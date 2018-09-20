@@ -18,22 +18,30 @@ class Connect4Game:
         self.connection.restartGame()
 
     def getNextBoard(self):
-        rawBoard = self.connection.getNextJsonField(Prot.FIELDS.board)
-        return Board.Connect4Board(rawBoard)
+        jMsg = self.connection.getNextJsonMsg()
+        rawBoard = jMsg[Prot.FIELDS.board]
+
+        self.currentBoard = Board.Connect4Board(rawBoard)
+        return self.currentBoard
+    #Raw msg handling
+    def getnextJsonMsg(self):
+        return self.connection.getNextJsonMsg()
+    def getNextTCPStringMsg(self):
+        return self.connection.getNextString()
 
     #TCP-API
     def getPossibleMoves(self, board):
-        jCommand = {Prot.FIELDS.action: Prot.ACTIONS.getPossMoves, Prot.FIELDS.board: board.rawBoard}
+        jCommand = {Prot.FIELDS.action: Prot.ACTIONS.getPossMoves, Prot.FIELDS.board: board.grid}
         self.connection.sendJsonDict(jCommand)
         return self.connection.getNextJsonField(Prot.FIELDS.possibleMoves)
 
     def evaluateBoard(self, board):
-        jCommand = {Prot.FIELDS.action: Prot.ACTIONS.evalBoard, Prot.FIELDS.board: board.rawBoard}
+        jCommand = {Prot.FIELDS.action: Prot.ACTIONS.evalBoard, Prot.FIELDS.board: board.grid}
         self.connection.sendJsonDict(jCommand)
         return self.connection.getNextJsonField(Prot.FIELDS.boardState)
 
     def simulateMove(self, board, move, player):
-        jCommand = {Prot.FIELDS.action: Prot.ACTIONS.simMove, Prot.FIELDS.board: board.rawBoard}
+        jCommand = {Prot.FIELDS.action: Prot.ACTIONS.simMove, Prot.FIELDS.board: board.grid}
         jCommand[Prot.FIELDS.move] = move
         jCommand[Prot.FIELDS.player] = player
         self.connection.sendJsonDict(jCommand)

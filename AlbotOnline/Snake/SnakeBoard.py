@@ -20,6 +20,9 @@ class SnakeBoard(Grid.GridBoard):
         self._parseBlocked(jUpdate[Prot.FIELDS.Snake.blocked])
 
         self.rawPlayer = jUpdate[Prot.FIELDS.player]
+        self.raw2Player = {}
+        self.raw2Player['x'] = self.rawPlayer['x']
+        self.raw2Player['y'] = self.rawPlayer['y']
         self.player = self._parseSnakePlayer(self.rawPlayer, C.playerSign)
 
         self.rawEnemy = jUpdate[Prot.FIELDS.enemy]
@@ -43,6 +46,9 @@ class SnakeBoard(Grid.GridBoard):
         self.height = oldBoard.height
         self.width = oldBoard.width
         self.blocked = copy.deepcopy(oldBoard.blocked)
+
+    def printBoard(self, title=""):
+        Grid.GridBoard.printBoard(self, title)
 
     #TCP API
     def getAPIBoard(self):

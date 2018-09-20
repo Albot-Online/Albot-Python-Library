@@ -26,20 +26,14 @@ class AlbotConnection:
         self.sendJsonDict(data)
 
     #Communication Input
-    def getNextString(self, checkForGameOver = False):
+    def getNextString(self,):
         data = self.connection.recv(self.bufferSize)
         text = data.decode("utf-8")
-       # print(text)
         self.awaitingData = False
-
-        if(checkForGameOver and Protocol.FIELDS.gameOver in text):
-            if(self.gameOverObj != None):
-                self.gameOverObj.setGameOver(text)
-
         return text
 
-    def getNextJsonMsg(self, checkForGameOver = False):
-        return json.loads(self.getNextString(checkForGameOver))
+    def getNextJsonMsg(self):
+        return json.loads(self.getNextString())
 
     def getNextJsonField(self, field):
         return self.getNextJsonMsg()[field]

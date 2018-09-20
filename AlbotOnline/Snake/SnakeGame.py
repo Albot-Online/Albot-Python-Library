@@ -13,23 +13,23 @@ class SnakeGame:
         self.currentBoard = SnakeBoard()
         self.gameOver = False
 
-    def getNextBoard(self, oldBoard = None, setCurrentBoard = True):
-        if(self.connection.awaitingData == False):
+    def getNextBoard(self, oldBoard=None):
+        if (self.connection.awaitingData == False):
             self.makePassMove()
 
-        text = self.connection.getNextString(checkForGameOver=True)
-        if(self.gameOver):
-            return None
-        jMsg = json.loads(text)
-
-        if(setCurrentBoard):
-            self.currentBoard = SnakeBoard(jUpdate=jMsg)
-            return self.currentBoard
-        elif(oldBoard != None):
+        jMsg = self.connection.getNextJsonMsg()
+        if (oldBoard != None):
             return SnakeBoard(oldBoard=oldBoard, jUpdate=jMsg)
         else:
             return SnakeBoard(jUpdate=jMsg)
 
+    def awaitNextGameState(self):
+        jMsg = self.connection.getNextJsonMsg()
+        self.currentBoard = SnakeBoard(jUpdate=jMsg)
+        self.boardState = jMsg[Prot.FIELDS.boardState]
+        self.gameOver = self.boardState != Prot.STATES.ongoing
+
+        return self.boardState
 
     def restartGame(self):
         self.connection.restartGame()
@@ -75,14 +75,19 @@ class SnakeGame:
             return Prot.ACTIONS.Snake.down
 
 
+    #Raw msg handling
+    def getnextJsonMsg(self):
+        return self.connection.getNextJsonMsg()
+    def getNextTCPStringMsg(self):
+        return self.connection.getNextString()
 
     #TCP API
     def simulateMove(self, board, playerMove, enemyMove):
-        jCommand = {Prot.FIELDS.action: Prot.ACTIONS.Snake.simMoveDelta, Prot.FIELDS.player: board.rawPlayer, Prot.FIELDS.enemy: board.rawEnemy}
+        jCommand = {Prot.FIELDS.action: Prot.ACTIONS.Snake.simMoveDelta, Prot.FIELDS.player: board.raw2Player, Prot.FIELDS.enemy: board.rawEnemy}
         jCommand[Prot.FIELDS.Snake.playerMove] = playerMove
         jCommand[Prot.FIELDS.Snake.enemyMove] = enemyMove
         self.connection.sendJsonDict(jCommand)
-        return self.getNextBoard(oldBoard=board, setCurrentBoard=False)
+        return self.getNextBoard(oldBoard=board)
 
     def evaluateBoard(self, board):
         jCommand = {Prot.FIELDS.action: Prot.ACTIONS.evalBoard, Prot.FIELDS.board: board.getAPIBoard()}

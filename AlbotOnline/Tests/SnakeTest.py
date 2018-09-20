@@ -1,33 +1,10 @@
-from AlbotOnline.Connect4 import Connect4Game
 from AlbotOnline.Snake import SnakeGame
 import AlbotOnline.JsonProtocol as Prot
 import random as rand
 
 
-'''
-game = Connect4Game.Connect4Game()
-board = game.getNextBoard()
-print(board.width)
-print(board.height)
-print(board.grid)
-board.printBoard("My current board")
-
-moves = game.getPossibleMoves(board)
-print(moves)
-
-state = game.evaluateBoard(board)
-print(state)
-
-print(board.rawBoard)
-simBoard = game.simulateMove(board, 3, '1')
-simBoard.printBoard()
-
-input("restart...")
-game.restartGame()
-input("ok?")
-'''
-game = SnakeGame.SnakeGame() #Connects you to the Client
-maxDepth = 3
+game = SnakeGame.SnakeGame(Port=int(input("Port:"))) #Connects you to the Client
+maxDepth = 2
 
 def stateToScore(state):
     if(state == Prot.STATES.ongoing):
@@ -72,18 +49,14 @@ def search(board, depth):
 
     return maxScore, move
 
-while True:
-    while(game.gameOver == False):
-        board = game.getNextBoard()
-        if(game.gameOver):
-            break
 
-        score, move = search(board, maxDepth)
-        if(len(board.blocked) > 0):
-            print(board.blocked[0])
-        print(score, move)
-        board.printBoard("My current board")
+while(game.awaitNextGameState() == "ongoing"):
+    board = game.currentBoard
+    score, move = search(board, maxDepth)
 
-        game.makeMove(move)
+    if(len(board.blocked) > 0):
+        print(board.blocked[0])
+    print(score, move)
+    board.printBoard("My current board")
 
-    game.restartGame()
+    game.makeMove(move)
