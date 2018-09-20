@@ -8,6 +8,7 @@ This library is available at [PyPi](https://Pypi.org), so to download and instal
 ```
 pip install Albot.Online
 ```
+Alternatively you can download the files directly from this repository and include them in your project.
 ## Example
 Following is a short example of the Python Library being put to use on the [Snake](https://www.albot.online/snake/) game. 
 For exact information of how to use the library see the [documentation Wiki](https://github.com/Albot-Online/Albot-Python-Library/wiki).
@@ -17,8 +18,8 @@ from AlbotOnline.Snake.SnakeGame import SnakeGame
 import random
 
 game = SnakeGame() #Connects you to the Client
-while(game.gameOver == False):
-    board = game.getNextBoard()
+while(game.awaitNextGameState() == "ongoing"):
+    board = game.currentBoard
     board.printBoard("Current Board")
 
     playerMoves, enemyMoves = game.getPossibleMoves(board)
@@ -30,7 +31,7 @@ This bot will simply connect to the client, look at what moves it currently has 
 
 ## Versioning
 
-  0.2b0
+  0.63
   
 ## Authors
 
