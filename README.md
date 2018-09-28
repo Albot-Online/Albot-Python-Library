@@ -31,8 +31,8 @@ This bot will simply connect to the client, look at what moves it currently has 
 
 ## Versioning
 
-  Python: 3.6.5
-  Library: 0.64
+  Python: <b>3.6.5</b> <br>
+  Library: <b>0.64</b>
   
 ## Authors
 
