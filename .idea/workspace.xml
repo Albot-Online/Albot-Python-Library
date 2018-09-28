@@ -12,21 +12,22 @@
     <session id="10270796">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="63" />
+          <entry key="project.closed" value="72" />
           <entry key="project.open.time.0" value="13" />
-          <entry key="project.open.time.1" value="12" />
-          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.1" value="13" />
+          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.2" value="5" />
+          <entry key="project.open.time.2" value="6" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.6" value="10" />
+          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.6" value="14" />
           <entry key="project.open.time.7" value="10" />
-          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="66" />
+          <entry key="project.opened" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -35,7 +36,7 @@
           <entry key="PKG-INFO" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="md" value="2" />
-          <entry key="py" value="60" />
+          <entry key="py" value="63" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
@@ -43,104 +44,148 @@
         <counts>
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="60" />
+          <entry key="Python" value="63" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="py" value="19636" />
+          <entry key="py" value="20277" />
           <entry key="txt" value="139" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="109" />
-          <entry key="Python" value="19636" />
+          <entry key="Python" value="20277" />
           <entry key="Scratch" value="40" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AlbotOnline/QueueFlowServiceControl/Simulation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-                <marker date="1536815673518" expanded="true" signature="51:57" ph="..." />
-                <marker date="1536815673518" expanded="true" signature="437:874" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AlbotOnline/Tests/SnakeTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AlbotOnline/AlbotConnection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AlbotOnline/Tests/TestQueueFlowService.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="48" selection-start-column="48" selection-end-column="48" />
-              <folding>
-                <marker date="1535621465714" expanded="true" signature="958:959" ph="..." />
-                <marker date="1535621465714" expanded="true" signature="958:1078" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AlbotOnline/Tests/TestConnect4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AlbotOnline/Snake/SnakeGame.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.6065686">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/AlbotOnline/QueueFlowServiceControl/Simulation.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="578">
+                  <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+                  <folding>
+                    <element signature="e#0#13#0" expanded="true" />
+                    <marker date="1536815673518" expanded="true" signature="51:57" ph="..." />
+                    <marker date="1536815673518" expanded="true" signature="437:874" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/AlbotOnline/Tests/SnakeTest.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="327">
+                  <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/AlbotOnline/TwitterMonteCarlo/Twitter.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="245">
+                  <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+                  <folding>
+                    <marker date="1538105706520" expanded="true" signature="68:70" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/AlbotOnline/Tests/TwitterTest.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="363">
+                  <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+                  <folding>
+                    <element signature="e#0#53#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/AlbotOnline/AlbotConnection.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="10" selection-start-line="10" selection-end-line="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/AlbotOnline/Tests/TestQueueFlowService.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="48" selection-start-column="48" selection-end-column="48" />
+                  <folding>
+                    <marker date="1535621465714" expanded="true" signature="958:959" ph="..." />
+                    <marker date="1535621465714" expanded="true" signature="958:1078" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/AlbotOnline/Tests/TestConnect4.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/AlbotOnline/Snake/SnakeGame.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="612">
+                  <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/setup.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" column="100" selection-start-line="5" selection-start-column="100" selection-end-line="5" selection-end-column="100" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/AlbotOnline/Snake/SnakeGame.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="28" />
+                  <folding>
+                    <element signature="e#0#45#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -186,16 +231,18 @@
         <option value="$PROJECT_DIR$/AlbotOnline/Tests/TestQueueFlowService.py" />
         <option value="$PROJECT_DIR$/AlbotOnline/QueueFlowServiceControl/Simulation.py" />
         <option value="$PROJECT_DIR$/AlbotOnline/Snake/SnakeGame.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/AlbotOnline/Tests/SnakeTest.py" />
+        <option value="$PROJECT_DIR$/AlbotOnline/TwitterMonteCarlo/Twitter.py" />
+        <option value="$PROJECT_DIR$/AlbotOnline/Tests/TwitterTest.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="3633" />
-    <option name="y" value="-602" />
-    <option name="width" value="1734" />
-    <option name="height" value="1407" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-610" />
+    <option name="width" value="3456" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -213,17 +260,6 @@
               <item name="Albot-Python-Library" type="b2602c69:ProjectViewProjectNode" />
               <item name="Albot-Python-Library" type="462c0819:PsiDirectoryNode" />
               <item name="AlbotOnline" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Albot-Python-Library" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Albot-Python-Library" type="462c0819:PsiDirectoryNode" />
-              <item name="AlbotOnline" type="462c0819:PsiDirectoryNode" />
-              <item name="QueueFlowServiceControl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Albot-Python-Library" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Albot-Python-Library" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -254,28 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SnakeTest">
-    <configuration name="Connect4" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Albot-Python-Library" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Connect4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.TwitterTest">
     <configuration name="SnakeTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Albot-Python-Library" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -360,20 +375,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="TwitterTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Albot-Python-Library" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AlbotOnline/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AlbotOnline/Tests/TwitterTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.Connect4" />
       <item itemvalue="Python.TestFile" />
       <item itemvalue="Python.Test" />
       <item itemvalue="Python.TestFile (1)" />
       <item itemvalue="Python.SnakeTest" />
+      <item itemvalue="Python.TwitterTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.TwitterTest" />
         <item itemvalue="Python.SnakeTest" />
         <item itemvalue="Python.TestFile (1)" />
         <item itemvalue="Python.Test" />
         <item itemvalue="Python.TestFile" />
-        <item itemvalue="Python.Connect4" />
       </list>
     </recent_temporary>
   </component>
@@ -391,14 +427,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3633" y="-602" width="1734" height="1407" extended-state="0" />
+    <frame x="1912" y="-610" width="3456" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30070755" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14482154" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6721745" weight="0.35663787" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6721745" visible="true" weight="0.3322933" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -412,18 +449,18 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0343688" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2676801" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6721745" visible="true" weight="0.13475177" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6721745" weight="0.35607845" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.18096724" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.23959151" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.32782552" side_tool="true" weight="0.21134752" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -567,18 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AlbotOnline/QueueFlowServiceControl/Simulation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1536815673518" expanded="true" signature="51:57" ph="..." />
-            <marker date="1536815673518" expanded="true" signature="437:874" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AlbotOnline/AlbotConnection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -604,6 +629,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AlbotOnline/QueueFlowServiceControl/Simulation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1536815673518" expanded="true" signature="51:57" ph="..." />
+            <marker date="1536815673518" expanded="true" signature="437:874" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbotOnline/Tests/SnakeTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AlbotOnline/Snake/SnakeGame.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -611,20 +658,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
+    <entry file="file://$PROJECT_DIR$/AlbotOnline/TwitterMonteCarlo/Twitter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="245">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <marker date="1538105706520" expanded="true" signature="68:70" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AlbotOnline/Tests/SnakeTest.py">
+    <entry file="file://$PROJECT_DIR$/AlbotOnline/Tests/TwitterTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        <state relative-caret-position="363">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#53#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="100" selection-start-line="5" selection-start-column="100" selection-end-line="5" selection-end-column="100" />
         </state>
       </provider>
     </entry>

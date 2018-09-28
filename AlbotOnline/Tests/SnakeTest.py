@@ -49,14 +49,17 @@ def search(board, depth):
 
     return maxScore, move
 
+while(True):
 
-while(game.awaitNextGameState() == "ongoing"):
-    board = game.currentBoard
-    score, move = search(board, maxDepth)
+    while(game.awaitNextGameState() == "ongoing"):
+        board = game.currentBoard
+        score, move = search(board, maxDepth)
 
-    if(len(board.blocked) > 0):
-        print(board.blocked[0])
-    print(score, move)
-    board.printBoard("My current board")
+        if(len(board.blocked) > 0):
+            print(board.blocked[0])
+        print(score, move)
+        board.printBoard("My current board")
 
-    game.makeMove(move)
+        game.makeMove(move)
+
+    game.restartGame()
