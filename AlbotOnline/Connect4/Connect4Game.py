@@ -1,6 +1,7 @@
 from AlbotOnline import AlbotConnection as AO
 import AlbotOnline.JsonProtocol as Prot
-import  AlbotOnline.Connect4.Connect4Board as Board
+import AlbotOnline.Connect4.Connect4Board as Board
+
 
 class Connect4Game:
 
@@ -23,13 +24,15 @@ class Connect4Game:
 
         self.currentBoard = Board.Connect4Board(rawBoard)
         return self.currentBoard
-    #Raw msg handling
+
+    # Raw msg handling
     def getnextJsonMsg(self):
         return self.connection.getNextJsonMsg()
+
     def getNextTCPStringMsg(self):
         return self.connection.getNextString()
 
-    #TCP-API
+    # TCP-API
     def getPossibleMoves(self, board):
         jCommand = {Prot.FIELDS.action: Prot.ACTIONS.getPossMoves, Prot.FIELDS.board: board.grid}
         self.connection.sendJsonDict(jCommand)
@@ -47,3 +50,24 @@ class Connect4Game:
         self.connection.sendJsonDict(jCommand)
         rawBoard = self.connection.getNextJsonField(Prot.FIELDS.board)
         return Board.Connect4Board(rawBoard)
+
+    def awaitNextGameState(self):
+        jMsg = self.connection.getNextJsonMsg()
+        rawBoard = jMsg[Prot.FIELDS.board]
+        self.currentBoard = Board.Connect4Board(rawBoard)
+        self.boardState = jMsg[Prot.FIELDS.boardState]
+        self.gameOver = self.boardState != Prot.STATES.ongoing
+
+        return self.boardState
+
+    def playGame(self, decideMoveFunc, autoRestart=False):
+        while (True):
+            if (self.awaitNextGameState() != Prot.STATES.ongoing):
+                if (autoRestart):
+                    self.restartGame()
+                    continue
+                else:
+                    break
+
+            move = decideMoveFunc(self.currentBoard)
+            self.makeMove(move)

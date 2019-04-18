@@ -3,9 +3,10 @@ from AlbotOnline.Snake.SnakeBoard import SnakeBoard
 import AlbotOnline.JsonProtocol as Prot
 import json
 
+
 class SnakeGame:
 
-    def __init__(self, IP = '127.0.0.1', Port = 4000):
+    def __init__(self, IP='127.0.0.1', Port=4000):
         self.connection = AO.AlbotConnection(bufferSize=16384, IP=IP, Port=Port, gameOverObj=self)
         self._initGameVars()
 
@@ -40,22 +41,26 @@ class SnakeGame:
         self.currentBoard.gameOver = True
         print(msg)
 
-    #makeMoves
+    # makeMoves
     def makePassMove(self):
         self.connection.sendString(" ")
+
     def moveUp(self):
         self.connection.sendString(Prot.ACTIONS.Snake.up)
+
     def moveDown(self):
         self.connection.sendString(Prot.ACTIONS.Snake.down)
+
     def moveLeft(self):
         self.connection.sendString(Prot.ACTIONS.Snake.left)
+
     def moveRight(self):
         self.connection.sendString(Prot.ACTIONS.Snake.right)
 
     def makeMove(self, dir):
-        if(dir == Prot.ACTIONS.Snake.up):
+        if (dir == Prot.ACTIONS.Snake.up):
             self.moveUp()
-        elif(dir == Prot.ACTIONS.Snake.down):
+        elif (dir == Prot.ACTIONS.Snake.down):
             self.moveDown()
         elif (dir == Prot.ACTIONS.Snake.left):
             self.moveLeft()
@@ -64,6 +69,7 @@ class SnakeGame:
 
     def makeMoveInt(self, dir):
         self.makeMove(self.intToMove(dir))
+
     def intToMove(self, dir):
         if (dir == 0):
             return Prot.ACTIONS.Snake.right
@@ -74,16 +80,17 @@ class SnakeGame:
         elif (dir == 3):
             return Prot.ACTIONS.Snake.down
 
-
-    #Raw msg handling
+    # Raw msg handling
     def getnextJsonMsg(self):
         return self.connection.getNextJsonMsg()
+
     def getNextTCPStringMsg(self):
         return self.connection.getNextString()
 
-    #TCP API
+    # TCP API
     def simulateMove(self, board, playerMove, enemyMove):
-        jCommand = {Prot.FIELDS.action: Prot.ACTIONS.Snake.simMoveDelta, Prot.FIELDS.player: board.raw2Player, Prot.FIELDS.enemy: board.rawEnemy}
+        jCommand = {Prot.FIELDS.action: Prot.ACTIONS.Snake.simMoveDelta, Prot.FIELDS.player: board.raw2Player,
+                    Prot.FIELDS.enemy: board.rawEnemy}
         jCommand[Prot.FIELDS.Snake.playerMove] = playerMove
         jCommand[Prot.FIELDS.Snake.enemyMove] = enemyMove
         self.connection.sendJsonDict(jCommand)
@@ -95,7 +102,20 @@ class SnakeGame:
         return self.connection.getNextJsonField(Prot.FIELDS.boardState)
 
     def getPossibleMoves(self, board):
-        jCommand = {Prot.FIELDS.action: Prot.ACTIONS.getPossMoves, Prot.FIELDS.player: board.player.dir, Prot.FIELDS.enemy: board.enemy.dir}
+        jCommand = {Prot.FIELDS.action: Prot.ACTIONS.getPossMoves, Prot.FIELDS.player: board.player.dir,
+                    Prot.FIELDS.enemy: board.enemy.dir}
         self.connection.sendJsonDict(jCommand)
         jResponse = self.connection.getNextJsonMsg()
         return jResponse[Prot.FIELDS.Snake.playerMoves], jResponse[Prot.FIELDS.Snake.enemyMoves]
+
+    def playGame(self, decideMoveFunc, autoRestart=False):
+        while (True):
+            if (self.awaitNextGameState() != Prot.STATES.ongoing):
+                if (autoRestart):
+                    self.restartGame()
+                    continue
+                else:
+                    break
+
+            move = decideMoveFunc(self.currentBoard)
+            self.makeMove(move)

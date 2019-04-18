@@ -1,12 +1,13 @@
 import AlbotOnline.GridBoard as Grid
 from AlbotOnline.Connect4.Connect4Constants import *
 
+
 class Connect4Board:
 
     def __init__(self, grid):
         self.grid = grid
 
-    def printBoard(self, title = ""):
+    def printBoard(self, title=""):
         Grid.GridBoard.printBoard(self, title)
 
     def __str__(self):
