@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='Albot.Online',
-    version='0.64',
+    version='0.65',
     packages=['AlbotOnline', 'AlbotOnline.Snake', 'AlbotOnline.BrickPuzzle', 'AlbotOnline.Connect4', 'AlbotOnline.QueueFlowServiceControl', 'AlbotOnline.TwitterMonteCarlo'],
     url='https://www.albot.online/',
     license='MIT',
